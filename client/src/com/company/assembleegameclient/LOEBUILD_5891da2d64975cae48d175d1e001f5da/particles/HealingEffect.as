@@ -1,0 +1,38 @@
+package com.company.assembleegameclient.LOEBUILD_5891da2d64975cae48d175d1e001f5da.particles {
+import com.company.assembleegameclient.LOEBUILD_5891da2d64975cae48d175d1e001f5da.GameObject;
+
+public class HealingEffect extends ParticleEffect {
+
+      public var go_:GameObject;
+
+      public var lastPart_:int;
+
+      public function HealingEffect(param1:GameObject) {
+         super();
+         this.go_ = param1;
+         this.lastPart_ = 0;
+      }
+
+      override public function update(param1:int, param2:int) : Boolean {
+         var _local4:Number = NaN;
+         var _local5:int = 0;
+         var _local6:Number = NaN;
+         var _local7:HealParticle = null;
+         if(this.go_.map_ == null) {
+            return false;
+         }
+         x_ = this.go_.x_;
+         y_ = this.go_.y_;
+         var _local3:int = param1 - this.lastPart_;
+         if(_local3 > 500) {
+            _local4 = 2 * Math.PI * Math.random();
+            _local5 = (3 + int(Math.random() * 5)) * 20;
+            _local6 = 0.3 + 0.4 * Math.random();
+            _local7 = new HealParticle(16777215,Math.random() * 0.3,_local5,1000,0.1 + Math.random() * 0.1,this.go_,_local4,_local6);
+            map_.addObj(_local7,x_ + _local6 * Math.cos(_local4),y_ + _local6 * Math.sin(_local4));
+            this.lastPart_ = param1;
+         }
+         return true;
+      }
+   }
+}
