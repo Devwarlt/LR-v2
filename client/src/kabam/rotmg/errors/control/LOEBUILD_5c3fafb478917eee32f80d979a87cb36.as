@@ -16,7 +16,7 @@ public class LOEBUILD_5c3fafb478917eee32f80d979a87cb36 {
 
     public static const NAME_2:String = "loe.no-ip.org";
 
-    public static const NAME_3:String = "216.107.151.108";
+    public static const NAME_3:String = SERVER_IP;
 
     public static const AGCLoEBuild_:String = "AGCLoEBuild.swf";
 
@@ -24,9 +24,9 @@ public class LOEBUILD_5c3fafb478917eee32f80d979a87cb36 {
 
     public static const nm1Y:String = "Enemy";
 
-    public static const SERVER_PORT:String = "8497";
+    public static const SERVER_PORT:String = "8497"; //this is the server port
 
-    public static const SERVER_IP:String = "216.107.151.109";
+    public static const SERVER_IP:String = "127.0.0.1"; //this is the ip address to connect
 
     public static const qntity:int = 1;
 

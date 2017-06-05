@@ -66,7 +66,7 @@ import robotlegs.bender.extensions.signalCommandMap.SignalCommandMapExtension;
 import robotlegs.bender.framework.api.IContext;
 import robotlegs.bender.framework.api.LogLevel;
 
-[SWF(backgroundColor="#000000", width="800", height="600", frameRate="240")]
+[SWF(backgroundColor="#000000", width="800", height="600", frameRate="60")]
 public class WebMain extends Sprite {
 
     public static var STAGE:Stage;
@@ -90,40 +90,17 @@ public class WebMain extends Sprite {
         this.setup();
     }
 
-    /*/
-     var getURL:String
-     = ExternalInterface.call(
-     "window.location.href.toString"
-     );
-     if(
-     (!this.domain.isLocalDomainValid())
-     ||
-     (getURL == "http://loerealm.no-ip.org/
-     AGCLoEBuild.swf?
-     server=
-     e139d5cdbc18f23a522f86dd40490eaa")
-     )
-     /*/
-
     private function setup():void {
-        var _loc2_:String = stage.loaderInfo.parameters["server"];
-        if(_loc2_ != null && (_loc2_ == "e139d5cdbc18f23a522f86dd40490eaa" || _loc2_ == "server=e139d5cdbc18f23a522f86dd40490eaa")) {
-            this.hackParameters();
-            this.createContext();
-            new AssetLoader().load();
-            stage.scaleMode = StageScaleMode.EXACT_FIT;
-            this.context.injector.getInstance(StartupSignal).dispatch();
-            configureForAirIfDesktopPlayer();
-            STAGE = stage;
-            Options.changeQuality();
-            scaleX = this.scaleX;
-            scaleY = this.scaleY;
-        } else {
-            this.openBadDomainView();
-            var tmr:Timer = new Timer(15000);
-            tmr.start();
-            tmr.addEventListener(TimerEvent.TIMER, this.quitApp());
-        }
+        this.hackParameters();
+        this.createContext();
+        new AssetLoader().load();
+        stage.scaleMode = StageScaleMode.EXACT_FIT;
+        this.context.injector.getInstance(StartupSignal).dispatch();
+        configureForAirIfDesktopPlayer();
+        STAGE = stage;
+        Options.changeQuality();
+        scaleX = this.scaleX;
+        scaleY = this.scaleY;
     }
 
     private function hackParameters():void {

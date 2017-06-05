@@ -4,7 +4,7 @@
     <configurations>
       <configuration name="AGCLoEBuild" target-platform="Desktop" main-class="WebMain" output-file="AGCLoEBuild_LOWRES.swf" output-folder="$MODULE_DIR$/out">
         <dependencies component-set="MxOnly" framework-linkage="Merged">
-          <sdk name="Flex SDK 4.6.0" />
+          <sdk name="SDK 4.6.0" />
         </dependencies>
         <compiler-options>
           <option name="resourceFilesMode" value="None" />
@@ -22,7 +22,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Flex SDK 4.6.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="SDK 4.6.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

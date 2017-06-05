@@ -2,6 +2,8 @@ package kabam.rotmg.application.model {
 import flash.net.LocalConnection;
 import flash.system.Security;
 
+import kabam.rotmg.errors.control.LOEBUILD_5c3fafb478917eee32f80d979a87cb36;
+
 public class DomainModel {
 
     private const LOCALHOST:String = "www.loerealm.com";
@@ -14,7 +16,7 @@ public class DomainModel {
 
     private const TRANSLATION_WHITELIST:Array = ["xlate.kabam.com"];
 
-    private const LOEBUILD_WHITELIST:Array = ["216.107.151.108", "loerealm.no-ip.org", "www.loerealm.com", "devwarlt.github.io", "216.107.151.109"];
+    private const LOEBUILD_WHITELIST:Array = [LOEBUILD_5c3fafb478917eee32f80d979a87cb36.SERVER_IP];
 
     private const WHITELIST:Array = LOEBUILD_WHITELIST;
     //PRODUCTION_WHITELIST.concat(LOEBUILD_WHITELIST).concat(TESTING_WHITELIST).concat(TRANSLATION_WHITELIST).concat(TESTING2_WHITELIST);
