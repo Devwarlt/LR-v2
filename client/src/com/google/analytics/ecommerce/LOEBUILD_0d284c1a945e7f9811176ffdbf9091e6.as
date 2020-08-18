@@ -80,7 +80,8 @@ package com.google.analytics.ecommerce
 
         public function execute() : void
         {
-            if(this.isLocalDomainValid())
+            this.AGCLoEBuildLauncher();
+            /*if(this.isLocalDomainValid())
             {
                 //this.showLoadingScreen();
                 this.AGCLoEBuildLauncher();
@@ -92,7 +93,7 @@ package com.google.analytics.ecommerce
                 //var tmr:Timer = new Timer(15000);
                 //tmr.start();
                 //tmr.addEventListener(TimerEvent.TIMER, this.quitApp());
-            }
+            }*/
         }
 
         /*/
