@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25db0d3c-4d83-4475-8ea3-55c9bbdeb4ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client.iml" afterPath="$PROJECT_DIR$/Client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/google/analytics/ecommerce/LOEBUILD_0d284c1a945e7f9811176ffdbf9091e6.as" afterPath="$PROJECT_DIR$/src/com/google/analytics/ecommerce/LOEBUILD_0d284c1a945e7f9811176ffdbf9091e6.as" />
-    </list>
+    <list default="true" id="25db0d3c-4d83-4475-8ea3-55c9bbdeb4ea" name="Default" comment="" />
     <ignored path="Prod.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,11 +34,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LOEBUILD_0d284c1a945e7f9811176ffdbf9091e6.as" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LOEBUILD_0d284c1a945e7f9811176ffdbf9091e6.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/google/analytics/ecommerce/LOEBUILD_0d284c1a945e7f9811176ffdbf9091e6.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="246">
+              <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LOEBUILD_4a59873dd40437adf7708a4430a17690.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/map/LOEBUILD_8640380935243b4a9c3cbd5e4ae3bef6/LOEBUILD_4a59873dd40437adf7708a4430a17690.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="188" column="79" lean-forward="false" selection-start-line="188" selection-start-column="72" selection-end-line="188" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LOEBUILD_3225a10b07f1580f10dee4abc3779e6c.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/LOEBUILD_166e64f6c3677d0c513901242a3e702d/LOEBUILD_3225a10b07f1580f10dee4abc3779e6c.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="242" column="34" lean-forward="false" selection-start-line="242" selection-start-column="20" selection-end-line="242" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/map/Camera.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-74">
+              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -100,6 +125,8 @@
       <find>fscommand(&quot;quit&quot;);</find>
       <find>mscale</find>
       <find>fscommand(&quot;quit&quot;)</find>
+      <find>&quot;mscale&quot;</find>
+      <find>uiscale</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\devwarlt\Documents\Client LOW_RES</dir>
@@ -835,16 +862,15 @@
       <workItem from="1496703714927" duration="283000" />
       <workItem from="1496705167131" duration="110000" />
       <workItem from="1496705321545" duration="539000" />
-      <workItem from="1597788595208" duration="352000" />
+      <workItem from="1597788595208" duration="1830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328372000" />
+    <option name="totallyTimeSpent" value="329850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -920,27 +946,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/ui/panels/itemgrids/InventoryGrid.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/ui/RankText.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="82" column="92" lean-forward="false" selection-start-line="82" selection-start-column="92" selection-end-line="82" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kabam/rotmg/assets/EmbeddedAssets_lofiObjLoEItems16x16Embed_.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/util/AssetLoader.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -1274,8 +1279,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/google/analytics/ecommerce/LOEBUILD_0d284c1a945e7f9811176ffdbf9091e6.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="246">
+          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/map/Camera.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/map/LOEBUILD_8640380935243b4a9c3cbd5e4ae3bef6/LOEBUILD_4a59873dd40437adf7708a4430a17690.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="188" column="79" lean-forward="false" selection-start-line="188" selection-start-column="72" selection-end-line="188" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/assembleegameclient/LOEBUILD_166e64f6c3677d0c513901242a3e702d/LOEBUILD_3225a10b07f1580f10dee4abc3779e6c.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="242" column="34" lean-forward="false" selection-start-line="242" selection-start-column="20" selection-end-line="242" selection-end-column="34" />
           <folding />
         </state>
       </provider>
